@@ -18,10 +18,6 @@ from NetworkParser import cauer_solver as cs
 # TODO Foster Options Window Esc closes the whole app instead of just the window
 # TODO Sanity check in Foster Options Window
 
-# pyinstaller --hidden-import=pkg_resources.py2_warn --onefile --noconsole MainWindow_RC.py
-# pyinstaller MainWindow.spec
-# ICON_MAKER http://www.rw-designer.com/online_icon_maker.php icon Maker
-
 # LOWER BOUND
 default_foster_lower_bound = 0.00000001
 # UPPER BOUND
